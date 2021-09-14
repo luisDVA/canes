@@ -1,8 +1,4 @@
-install.packages(
-  "ggfx",
-  "ggplot2",
-  "readr",
-  "remotes"
-)
-
-remotes::install_github("teunbrand/ggh4x")
+install.packages("ggfx")
+install.packages("ggplot2")
+install.packages("readr")
+install.packages("remotes")

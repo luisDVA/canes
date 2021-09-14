@@ -1,6 +1,7 @@
 library(ggplot2)
 library(readr)
 library(ggh4x)
+remotes::install_github("teunbrand/ggh4x")
 library(ggfx)
 
 canes <- read.csv("datos/crecimiento_canes.csv")
