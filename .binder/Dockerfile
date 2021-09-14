@@ -1,4 +1,4 @@
-FROM rocker/tidyverse
+FROM rocker/binder
 LABEL maintainer='luis_verde'
 USER root
 COPY . ${HOME}
