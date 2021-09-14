@@ -1,0 +1,20 @@
+Type: Compendium
+Package: Crecimiento de cachorros
+Title: Demostrando Binder Taller CAPES
+Version: 0.0.1
+Authors@R: 
+    person(given = "Luis",
+           family = "Verde Arregoitia",
+           role = c("aut", "cre"),
+           email = "luis@liomys.mx")
+Description: Ejemplo para taller CAPES Sept 2021
+License: MIT
+Depends: 
+    ggfx,
+    ggh4x,
+    ggplot2,
+    readr
+Remotes: 
+    teunbrand/ggh4x
+Encoding: UTF-8
+LazyData: true
