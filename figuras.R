@@ -1,7 +1,7 @@
 library(ggplot2)
 library(readr)
 
-canes <- read.csv("crecimiento_canes.csv")
+canes <- read.csv("datos/crecimiento_canes.csv")
 
 ggplot(canes)+
   geom_point(aes(edad,peso))

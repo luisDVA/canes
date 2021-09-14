@@ -1,6 +1,6 @@
 library(readr)
 
-canes <- read.csv("crecimiento_canes.csv")
+canes <- read.csv("datos/crecimiento_canes.csv")
 
 summary(lm(peso~edad+raza,data=canes))
 
